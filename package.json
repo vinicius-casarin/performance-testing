@@ -10,6 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "puppeteer": "^22.0.0"
+    "chrome-launcher": "^0.10.5",
+    "fs": "^0.0.1-security",
+    "lighthouse": "^12.0.0",
+    "puppeteer": "^22.0.0",
+    "request": "^2.88.2"
   }
 }
