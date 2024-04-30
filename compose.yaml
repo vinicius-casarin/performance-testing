@@ -1,0 +1,13 @@
+services:
+  agent:
+    build: .
+    volumes:
+      - ./output:/code/output
+    deploy:
+      resources:
+        limits:
+          cpus: '4'
+          memory: 2GB
+        reservations:
+          cpus: '1'
+          memory: 1GB
